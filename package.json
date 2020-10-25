@@ -1,0 +1,20 @@
+{
+  "name": "fume-docs",
+  "version": "1.0.0",
+  "description": "fume documentation",
+  "main": "index.js",
+  "repository": "git@github.com:fumeapp/docs.git",
+  "author": "kevin olson",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "private": true,
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.7.2",
+    "nuxt": "^2.14.7"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "fume documentation",
+  "url": "https://docs.fume.app",
+  "logo": {
+    "light": "/fume.svg",
+    "dark": "/fume.svg"
+  },
+  "github": "fumeapp/docs",
+  "twitter": "@AppFume"
+}
