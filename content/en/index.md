@@ -2,75 +2,32 @@
 title: Introduction
 description: 'fume docs'
 position: 1
-category: 'Getting Started'
+category: ''
 features: 
-  - Easy automated deployment deployments
-  - Live dashboard
-  - Infinite teams and projects
-  - Deploy to functions for working SSR
+  - Auto-scaling web infrastructure fine-tuned for Nuxt.js
+  - Zero-downtime deployments and rollbacks
+  - Environment variable and secret management
+  - Custom application domain support
+  - DNS management
+  - Certificate management and renewal
+  - CI friendly
 
 ---
+## What is Fume?
 
-Documentation  for  [fume](https://fume.app).
+Fume is an auto-scaling serverless deployment platform for Nuxt.js.  Manage your Nuxt.js infrastructure on gain the power of scalability and simplicity of serverless.
 
-Deployment service for Nuxt.js!
+Fume abstracts the complexity of managing Nuxt.js applications
 
 ## Features
 <list :items="features"></list>
+
 ## Getting Started
 
+If it is you are setting up fume for the first time, reading resources below is recommended:
 
-This are `backticks` and these are **asterisks**
-
-Example code snippet with file name
-
-```php{}[App\Models\Project.php]
-public function getRepoNameAttribute()
-{
-    if ($this->repo === null) {
-        return null;
-    }
-    preg_match('/(git@|https:\/\/)git(hub|lab).com[:|\/](.*?)\/(.*?).git/', $this->repo, $matches);
-    return "${matches[3]}/${matches[4]}";
-}
-```
-
-<alert type="info">
-
-Check out an info alert with a `codeblock` and a [link](/themes/docs)!
-
-</alert>
-
-<alert type="warning">
-
-This is an example `Warning` alert
-
-</alert>
-
-
-## badge
-<badge>v1.2+</badge>
-
-## code block
-<code-group>
-  <code-block label="Yarn" active>
-
-  ```bash
-  yarn global add fume-cli
-  ```
-
-  </code-block>
-  <code-block label="NPM">
-
-  ```bash
-  npm install -g fume-cli
-  ```
-
-  </code-block>
-</code-group>
-
-> This is a markdown hint using >
-
+1. [Create a fume account, team, and project](setup)
+2. [Install the fume CLI](fume-cli)
 
 ## More Resources
 

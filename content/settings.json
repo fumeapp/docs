@@ -2,8 +2,8 @@
   "title": "fume documentation",
   "url": "https://docs.fume.app",
   "logo": {
-    "light": "/icon.png",
-    "dark": "/icon.png"
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png"
   },
   "github": "fumeapp/docs",
   "twitter": "@AppFume"

@@ -2,7 +2,7 @@
 title: fume CLI
 description: 'Installing the Fume CLI'
 position: 2
-category: 'Getting Started'
+category: 'Guide'
 ---
 
 
