@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fumeapp/docs/master/static/icon.png" width="512" height="512" />
+  <img src="https://raw.githubusercontent.com/fumeapp/docs/master/static/icon.png" width="256" height="256" />
 </p>
 
 # fume documentation
