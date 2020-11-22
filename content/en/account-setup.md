@@ -1,7 +1,7 @@
 ---
 title: Account Setup 
 description: 'Setting up a fume account'
-position: 1
+position: 2
 category: 'Guide'
 ---
 

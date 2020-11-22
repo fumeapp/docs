@@ -1,7 +1,7 @@
 ---
 title: Create a project
 description: 'Create your first project'
-position: 3
+position: 4
 category: 'Guide'
 ---
 
