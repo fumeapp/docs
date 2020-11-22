@@ -23,8 +23,9 @@ jobs:
       - name: Install our dependencies
         run: yarn
       - name: Lets see if we can find fume
-        run: which fume
+        id: yarn-bin
+        run: echo "::set-output name=dir::$(yarn global bin)"
       - name: Deploy with Fume
-        run: fume deploy production
+        run: ${{ steps.yarn-bin.outputs.dir }} fume deploy production
         env:
           FUME_TOKEN: ${{ secrets.FUME_TOKEN }}
