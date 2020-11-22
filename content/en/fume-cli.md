@@ -1,11 +1,9 @@
 ---
-title: fume CLI
-description: 'Installing the Fume CLI'
-position: 2
+title: Setup the CLI
+description: 'Setting up the Fume CLI'
+position: 4
 category: 'Guide'
 ---
-
-
 
 Install the CLI using `yarn` or `npm`
 

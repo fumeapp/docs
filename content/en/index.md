@@ -9,12 +9,11 @@ features:
   - Environment variable management
   - Custom application domain support
   - Deploy both headless and SSR environments
-  - CI friendly
 
 ---
 ## What is Fume?
 
-Fume is an auto-scaling serverless deployment platform for Nuxt.js.  Manage your Nuxt.js infrastructure and gain the power of scalability and simplicity of serverless.
+Fume is a serverless deployment platform for Nuxt.js.  Manage your Nuxt.js infrastructure and gain the power of scalability and simplicity of serverless.
 
 Fume abstracts the complexity of managing Nuxt.js applications
 
@@ -25,8 +24,10 @@ Fume abstracts the complexity of managing Nuxt.js applications
 
 If you are setting up fume for the first time, these resources should be a good start:
 
-1. [Create a fume account, team, and project](setup)
-2. [Install the fume CLI](fume-cli)
+1. [Account Setup](setup)
+1. [Connect to AWS](aws-connect)
+1. [Create a project](create-project)
+2. [Setup the fume CLI](fume-cli)
 
 ## More Resources
 

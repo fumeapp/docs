@@ -1,3 +1,9 @@
+---
+title: Kitchen Sink
+description: 'Setting up a fume account'
+position: 30
+category: 'Guide'
+---
 
 This are `backticks` and these are **asterisks**
 
