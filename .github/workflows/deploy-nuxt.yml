@@ -26,6 +26,6 @@ jobs:
         id: yarn-bin
         run: echo "::set-output name=dir::$(yarn global bin)"
       - name: Deploy with Fume
-        run: ${{ steps.yarn-bin.outputs.dir }} fume deploy production
+        run: ${{ steps.yarn-bin.outputs.dir }}/fume deploy production
         env:
           FUME_TOKEN: ${{ secrets.FUME_TOKEN }}
