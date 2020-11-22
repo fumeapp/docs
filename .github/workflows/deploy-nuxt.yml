@@ -22,7 +22,7 @@ jobs:
         run: yarn global add fume-cli
       - name: Install our dependencies
         run: yarn
-      - name: Lets see if we can find fume
+      - name: Grab and store yarn's gobal bin
         id: yarn-bin
         run: echo "::set-output name=dir::$(yarn global bin)"
       - name: Deploy with Fume
