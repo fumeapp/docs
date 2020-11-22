@@ -22,7 +22,9 @@ jobs:
         run: yarn global add fume-cli
       - name: Install our dependencies
         run: yarn
-      - name: Deploy with FUme
+      - name: Lets see if we can find fume
+        run: which fume
+      - name: Deploy with Fume
         run: fume deploy production
         env:
           FUME_TOKEN: ${{ secrets.FUME_TOKEN }}
