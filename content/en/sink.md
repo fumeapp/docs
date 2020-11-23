@@ -1,5 +1,5 @@
 ---
-title: Kitchen Sink
+title: Kitchen Sinkk
 description: 'Setting up a fume account'
 position: 30
 category: 'Guide'
