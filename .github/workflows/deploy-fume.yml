@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install Fume-CLI
         run: yarn global add fume-cli
       - name: Grab and store yarn's gobal bin
         id: yarn-bin
