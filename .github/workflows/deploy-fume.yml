@@ -8,13 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: check git log command
-        run: git log --decorate=short -n -1
       - name: Install Fume-CLI
         run: yarn global add fume-cli
       - name: Grab and store yarn's gobal bin
         id: yarn-bin
         run: echo "::set-output name=dir::$(yarn global bin)"
+      - name: check git log command
+        run: git log --decorate=short -n -1
       - name: Deploy with Fume
         run: ${{ steps.yarn-bin.outputs.dir }}/fume deploy production
         env:

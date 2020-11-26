@@ -7,7 +7,7 @@ category: 'Guide'
 
 These are `backticks` and these are **asterisks**
 
-test 1
+test 2
 
 Example code snippet with file name
 
