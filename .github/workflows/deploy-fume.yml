@@ -14,7 +14,9 @@ jobs:
         id: yarn-bin
         run: echo "::set-output name=dir::$(yarn global bin)"
       - name: check git log command
-        run: git log --decorate=short -n -1
+        run: git log --decorate=short -n -1 > git_log.txt
+      - name: check pipe test
+        run: cat git_log.txt
       - name: Deploy with Fume
         run: ${{ steps.yarn-bin.outputs.dir }}/fume deploy production
         env:
