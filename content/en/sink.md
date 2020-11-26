@@ -5,7 +5,7 @@ position: 30
 category: 'Guide'
 ---
 
-This are `backticks` and these are **asterisks**
+These are `backticks` and these are **asterisks**
 
 Example code snippet with file name
 
