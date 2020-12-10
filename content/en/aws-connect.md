@@ -8,7 +8,10 @@ category: 'Guide'
 
 AWS Accounts are associated with teams.
 
-You will need to provide IAM Security Credentials that will allow Fume to create an IAM role.  Details on creating these keys [here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey).
+* Fume requires a temporary user with IAM access to create the <a class="text-indigo-600 hover:text-indigo-700" href="https:///docs.fume.app/fume-role" target="_new">fume role</a>
+* You can use [this link](https://console.aws.amazon.com/iam/home#/users$new?step=review&accessKey&userNames=fume-temp-user&permissionType=policies&policies=arn:aws:iam::aws:policy%2FIAMFullAccess) to help create your credentials.
+* Create the user and then copy the Access Key ID and Secret Access Key.
+* You may delete the user after you have linked the account.
 
 <alert type="info">
 

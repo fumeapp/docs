@@ -4,6 +4,9 @@
 
 # fume documentation
 
+
+[![fume](https://img.shields.io/badge/fume-deployed-362f78.svg)](https://fume.app)
+
 ## Setup
 
 Install dependencies:
