@@ -6,6 +6,8 @@
 
 
 [![fume](https://img.shields.io/badge/fume-deployed-362f78.svg)](https://fume.app)
+[![fume](https://img.shields.io/badge/fume-deployed-b6c6fc.svg)](https://fume.app)
+#b6c6fc
 
 ## Setup
 
