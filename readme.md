@@ -5,6 +5,7 @@
 # fume documentation
 
 
+[![nuxt.js](https://img.shields.io/badge/nuxt.js-v2.14.7-04C690.svg)](https://nuxtjs.org)
 [![fume](https://img.shields.io/badge/fume-deployed-362f78.svg)](https://fume.app)
 [![fume](https://img.shields.io/badge/fume-deployed-b6c6fc.svg)](https://fume.app)
 [![fume](https://img.shields.io/badge/fume-deployments:16-362f78.svg)](https://fume.app)
