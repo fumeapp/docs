@@ -8,7 +8,7 @@ features:
   - Zero-downtime deployments and rollbacks
   - Environment variable management
   - Custom application domain support
-  - Deploy both headless and SSR environments
+  - Deploy both static (headless) and server-rendered (SSR) apps
 
 ---
 ## What is Fume?
