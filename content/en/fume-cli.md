@@ -25,16 +25,14 @@ Install the CLI using `yarn` or `npm`
   </code-block>
 </code-group>
 
-
 ### Connect your workstation to Fume
 
 ```bash
-fume auth:login
+fume login
 ```
 
 * Please make sure you're authenticated with fume on this machine.
-* You will be prompted to open your default browser to generate a token.
-* Once your token has been copied and created, paste it back into your terminal
+* You will be prompted to open your default browser to approve your machine.
 
 ### Connect Fume to your projects codebase
 
@@ -46,6 +44,5 @@ fume config
 ```
 
 * The CLI will then ask you to choose a project, then create a `fume.yml`
-  * Feel free to check this file in
-
+  * Feel free to add this file to your codebase
 
