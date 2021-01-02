@@ -18,6 +18,7 @@ Below is the policy `fume-role-policy` fume creates and attaches.
                 "iam:*",
                 "apigateway:*",
                 "cloudfront:*",
+                "cloudwatch:*",
                 "route53domains:*",
                 "route53:*",
                 "s3:*",
