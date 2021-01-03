@@ -25,7 +25,4 @@ monthly_requests = this.total_invocations * 0.0000002
 Total Charges = monthly_compute + monthly_requests
 ```
 
-
-
-
-
+> Estimated Costs do not factor in free tier eligibility or cheaper tier rates
