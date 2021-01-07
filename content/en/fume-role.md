@@ -5,7 +5,8 @@ position: 20
 category: 'AWS'
 ---
 
-Fume creates a role `fume-role` when you connect your cloud account. 
+Fume creates a role `fume-role` when you connect your cloud account.
+
 
 Below is the policy `fume-role-policy` fume creates and attaches.
 
@@ -31,3 +32,4 @@ Below is the policy `fume-role-policy` fume creates and attaches.
     ]
 }
 ```
+You may view this role and its policy in your account [here](https://console.aws.amazon.com/iam/home?region=us-east-1#/roles/fume-role)
