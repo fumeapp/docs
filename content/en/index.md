@@ -15,7 +15,7 @@ features:
 
 Fume is a serverless deployment platform for Nuxt.js.  Manage your Nuxt.js infrastructure and gain the power of scalability and simplicity of serverless.
 
-Fume abstracts the complexity of managing Nuxt.js applications
+Fume abstracts the complexity of managing Nuxt.js applications, allowing you to focus on development.
 
 ## Features
 <list :items="features"></list>
