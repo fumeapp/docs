@@ -24,5 +24,6 @@ monthly_compute = gigabyte_per_second * 0.0000166667 ( for every gb/s )
 monthly_requests = this.total_invocations * 0.0000002
 Total Charges = monthly_compute + monthly_requests
 ```
-
-> Estimated Costs do not factor in free tier eligibility or cheaper tier rates
+<alert type="warning">
+Estimated Costs do not factor in free tier eligibility or cheaper tier rates
+</alert>

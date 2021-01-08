@@ -26,8 +26,8 @@ If you are setting up fume for the first time, these resources should be a good 
 
 1. [Account Setup](account-setup)
 2. [Connect to AWS](aws-connect)
-3. [Create a project](create-project)
-4. [Setup the fume CLI](fume-cli)
+3. [Create a Project](create-project)
+4. [Setup the Fume CLI](fume-cli)
 5. [Create your first deployment](create-deploy)
 
 ## More Resources

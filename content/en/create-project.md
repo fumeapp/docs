@@ -1,14 +1,14 @@
 ---
-title: Create a project
+title: Create a Project
 description: 'Create your first project'
 position: 4
 category: 'Guide'
 ---
 
-Once your team and AWS account are in you're ready to create a project.  
+Once your team and AWS account are created you're ready to [create a project](https://fume.app/project/create).  
 
 ### Name and Logo
-Choose a project name and optional logo, make sure the correct team has been selected. 
+Choose a project name and optional logo, make sure the correct team has been selected.** 
 
 <alert type="warning">
 

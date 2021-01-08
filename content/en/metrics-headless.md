@@ -22,9 +22,6 @@ bytes_cost = total_bytes / (1e+9 * 0.085)
 Total Charges = request_costs + bytes_cost
 ```
 
-> Estimated Costs do not factor in free tier eligibility or cheaper tier rates
-
-
-
-
-
+<alert type="warning">
+Estimated Costs do not factor in free tier eligibility or cheaper tier rates
+</alert>

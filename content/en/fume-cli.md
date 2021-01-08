@@ -25,6 +25,15 @@ Install the CLI using `yarn` or `npm`
   </code-block>
 </code-group>
 
+
+<alert type="info">
+
+You can skip all the steps of the CLI by running `fume deploy`
+in your project's directory, you will still save your login token and create your projects config file
+
+</alert>
+
+
 ### Connect your workstation to Fume
 
 ```bash
