@@ -8,7 +8,7 @@ category: 'AWS'
 Fume creates a role `fume-role` when you connect your cloud account.
 
 
-Below is the policy `fume-role-policy` fume creates and attaches.
+Below are the permissions for the `fume-role-policy`.
 
 ```json
 {
@@ -33,4 +33,43 @@ Below is the policy `fume-role-policy` fume creates and attaches.
     ]
 }
 ```
-You may view this role and its policy in your account [here](https://console.aws.amazon.com/iam/home?region=us-east-1#/roles/fume-role)
+
+Below are the trust relationships
+
+```json
+{
+    "Version": "2012-10-17",
+        "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::751311555268:root"
+            },
+            "Action": "sts:AssumeRole"
+        },
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "apigateway.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        },
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        },
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "datasync.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
+```
+
+You may view this role, its policy, and trust in your account [here](https://console.aws.amazon.com/iam/home?region=us-east-1#/roles/fume-role)
