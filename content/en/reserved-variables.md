@@ -7,7 +7,7 @@ category: 'AWS'
 
 ## Lambdas reserved environment variables
 Lambda runtimes set several environment variables during initialization.
-The keys for these environment variables are **reserved** and cannot be set in your function configuration.
+The keys for these environment variables are reserved and **cannot** be set in your function configuration.
 
 * `_HANDLER` – The handler location configured on the function.
 * `_X_AMZN_TRACE_ID` – The X-Ray tracing header.
