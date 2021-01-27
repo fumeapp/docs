@@ -30,6 +30,13 @@ If you are setting up fume for the first time, these resources should be a good 
 4. [Setup the Fume CLI](fume-cli)
 5. [Create your first deployment](create-deploy)
 
+You can also watch our quick [video guides](https://www.youtube.com/channel/UC9wwnu7EK_IRxDAIaN4q8NA).
+
+* [Connecting a cloud account](https://www.youtube.com/watch?v=UQoJcQtbxPA)
+* [Creating a Project](https://www.youtube.com/watch?v=6bxzYKGv71k)
+* [Deploying to your project](https://www.youtube.com/watch?v=YIIOiJKkjso)
+
+
 ## More Resources
 
 * [Fume](https://fume.app/)
