@@ -8,6 +8,7 @@ features:
   - Zero-downtime deployments and rollbacks
   - Environment variable management
   - Custom application domain support
+  - CDN support for all your assets
   - Deploy both static (headless) and server-rendered (SSR) apps
 
 ---
