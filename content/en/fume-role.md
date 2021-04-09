@@ -25,6 +25,8 @@ Below are the permissions for the `fume-role-policy`.
                 "route53:*",
                 "s3:*",
                 "lambda:*",
+                "ecr:*",
+                "ecr-public:*",
                 "acm:*"
             ],
             "Effect": "Allow",
