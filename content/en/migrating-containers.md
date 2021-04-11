@@ -9,7 +9,7 @@ There are two major ways to upgrade to Container support.
 
 ## Option 1 - Delete everything
 > more steps, no AWS interaction
-1. Make sure you have upgraded to the latest version of the CLI (**v0.1.0** or later)
+1. Make sure you have upgraded to the latest version of the CLI <badge>v0.1.1</badge> or later
 
  <code-group>
    <code-block label="Yarn" active>
@@ -36,7 +36,7 @@ There are two major ways to upgrade to Container support.
 
 ## Option 2 - Manually update your AWS role
 > fewer steps, requires AWS interaction
-1. Make sure you have upgraded to the latest version of the CLI (**v0.1.0** or later)
+1. Make sure you have upgraded to the latest version of the CLI <badge>v0.1.1</badge> or later
    
  <code-group>
    <code-block label="Yarn" active>
