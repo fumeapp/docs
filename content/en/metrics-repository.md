@@ -9,7 +9,7 @@ category: 'Metrics'
 ## Total Size
 A total of size of all currently stored images
 
-## Estimated Storage Cost
+## Estimated Monthly Storage Cost
 
 Details about ECR and its pricing can be found [here](https://aws.amazon.com/ecr/pricing/)
 
