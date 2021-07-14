@@ -20,15 +20,19 @@ You will not be able to rename your project, you may delete and re-add it.
 ### Connected AWS Account
 Choose the cloud account you want this project deployed to
 
+### Framework
+Choose either a [NuxtJS](https://nuxtjs.org) or [NestJS](https://nestjs.com) framework
+* NuxtJS projects can be either SSR or Static
+* NestJS projects require SSR by default
 
-### Project Structure
+### Project Structure (NuxtJS only)
 Choose either SSR functionality or Headless.
 * SSR structures will be deployed to a Lambda Function backed by an Api Gateway.
   * You will be able to turn on caching later based on the environment.
 * Headless structures deploy to S3 buckets backed by CloudFront.
 
 ### Repository
-Providing a repository will help fume:
+Providing a repository will help Fume:
 * Link to the commits related to your deployments on the web app.
 * Link the related commits and branches in the webhook payload.
 

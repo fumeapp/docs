@@ -4,19 +4,19 @@ description: 'fume docs'
 position: 1
 category: ''
 features: 
-  - Auto-scaling web infrastructure fine-tuned for Nuxt.js
+  - Auto-scaling web infrastructure fine-tuned for NuxtJS and NestJS
   - Zero-downtime deployments and rollbacks
   - Environment variable management
   - Custom application domain support
-  - CDN support for all your assets
+  - CDN support for all your assets with automated invalidations
   - Deploy both static (headless) and server-rendered (SSR) apps
 
 ---
 ## What is Fume?
 
-Fume is a serverless deployment platform for Nuxt.js.  Manage your Nuxt.js infrastructure and gain the power of scalability and simplicity of serverless.
+Fume is a serverless deployment platform for NuxtJS and NestJS.  Manage your infrastructure and gain the power of scalability and simplicity of serverless with static or server-side rendering.
 
-Fume abstracts the complexity of managing Nuxt.js applications, allowing you to focus on development.
+Fume abstracts the complexity of managing your applications, allowing you to focus on development.
 
 ## Features
 <list :items="features"></list>
