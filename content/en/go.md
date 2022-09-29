@@ -2,7 +2,7 @@
 title: Go 
 description: 'Using Go'
 position: 18 
-category: 'Other Languages'
+category: 'Languages'
 ---
 
 Fume supports the use of Go by itself or with the [Gin](https://gin-gonic.com/) and [Fiber](https://gofiber.io) framework
