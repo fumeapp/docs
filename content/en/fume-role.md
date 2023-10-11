@@ -27,7 +27,11 @@ Below are the permissions for the `fume-role-policy`.
                 "lambda:*",
                 "ecr:*",
                 "ecr-public:*",
-                "acm:*"
+                "acm:*",
+                "ec2:DescribeInstances",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeSecurityGroups"
             ],
             "Effect": "Allow",
             "Resource": "*"
